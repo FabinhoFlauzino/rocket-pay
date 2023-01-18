@@ -66,3 +66,8 @@ form button {
 form button:hover {
   filter: brightness(1.1);
 }
+
+form button:disabled{
+  cursor: no-drop;
+  filter: brightness(0.5);
+}
